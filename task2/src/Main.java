@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("Hello");
         System.out.println("\t\t\t***Программа определения весов товаров***\n\n\n");
 
         System.out.println("Введите первый вес: ");
@@ -25,11 +27,11 @@ public class Main {
      } else if ((second > first && second < third) || (second < first && second > third)){
         average = second ;
      } else {
-         average = third;
+         average = third ;
      }
 
 
-        //todo
+        //todo end of programm !
 
 
         System.out.println("Наибольший вес: " + greatest);
